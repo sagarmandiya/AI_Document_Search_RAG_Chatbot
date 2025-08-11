@@ -1,0 +1,24 @@
+# Core LangChain packages
+langchain==0.2.9
+langchain-community==0.2.3
+langchain-core==0.0.81
+
+# Vector store & embeddings
+chromadb==0.4.7
+sentence-transformers==2.2.2
+huggingface-hub==0.17.4
+
+# Data processing & loading
+beautifulsoup4==4.12.2
+pypdf==3.13.0
+
+# Backend API framework & server
+fastapi==0.95.2
+uvicorn[standard]==0.23.1
+
+# Environment management
+python-dotenv==1.0.0
+
+# Optional: testing & dev utilities
+pytest==7.4.0
+requests==2.31.0

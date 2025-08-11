@@ -1,0 +1,109 @@
+# ============================
+# Python / FastAPI / LangChain
+# ============================
+
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / build
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pyre/
+
+# RAG / LangChain Vector DB storage
+vector_store/
+chroma.sqlite3
+*.pkl
+
+# Environment variables / secrets
+.env
+.env.local
+.env.*
+!env.example   # Keep a sample env file without secrets
+
+# Logs
+*.log
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ============================
+# Node / React / TypeScript
+# ============================
+
+# Dependencies
+node_modules/
+
+# Production build outputs
+build/
+dist/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REACT fast refresh cache
+.fast_refresh
+
+# Yarn / pnpm / bun files
+.yarn/cache
+.pnp.*
+.pnpm-debug.log*
+.yarn-integrity
+.yarnclean
+*.tsbuildinfo
+
+# Env for frontend
+.env.development
+.env.production
+.env.test
